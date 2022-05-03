@@ -1,31 +1,29 @@
 
 body{
   margin: 0;
+  text-align:center;
 }
 #flex-container{
-  background-color: #DEB6AB;
-  width: 100%;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content:center;
-  align-content: center;
-  max-height: 100vh;
+  background-color: #DEB6AB
 }
 .flex-item{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-flow:row wrap;
   padding: 20px;
 }
 .flex1{
   background-color: #F8ECD1;
-  width: 30%;
+  width:270px;
+  height:350px;
   border-radius: 15px;
   border: 2px solid black;
 }
 .flex2{
   background-color: #AC7D88;
-  width: 30%;
+  width:270px;
+  height:350px;
   border-radius:15px;
   border: 2px solid black;
 }
@@ -33,5 +31,6 @@ body{
   background-color: #85586F;
   border-radius: 15px;
   border: 2px solid black;
-  width: 30%;
+  width:270px;
+  height:350px;
 }
